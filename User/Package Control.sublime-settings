@@ -1,0 +1,13 @@
+{
+	"auto_upgrade_last_run": 1330788160,
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Djaneiro",
+		"Git",
+		"Package Control",
+		"PythonTidy",
+		"SublimeCodeIntel",
+		"SublimeLinter"
+	]
+}

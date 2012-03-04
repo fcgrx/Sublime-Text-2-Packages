@@ -1,13 +1,14 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"default_line_ending": "unix",
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
 	"font_face": "Menlo",
+	"font_size": 11.0,
+	"indent_subsequent_lines": false,
+	"save_on_focus_lost": true,
 	"translate_tabs_to_spaces": true,
-    "wrap_width": 78,
-    "indent_subsequent_lines": false,
-    "draw_minimap_border": true,
-    "save_on_focus_lost": true,
-    "fallback_encoding": "UTF-8",
-    "default_line_ending": "unix",
-    "trim_trailing_white_space_on_save": true,
-    "ensure_newline_at_eof_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"wrap_width": 78
 }
