@@ -1,0 +1,4 @@
+{
+    "pep8_ignore": [],
+    "pyflakes_ignore_import_*": false
+}
