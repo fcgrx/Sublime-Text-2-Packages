@@ -53,12 +53,17 @@
                     "end": "\""
                 },
                 {
+                    "name": "storage.type.attr.django",
+                    "begin": ":\\'|\\'",
+                    "end": "\\'"
+                },
+                {
                     "name": "string.unquoted.filter-pipe.django",
                     "match": "\\|"
                 },
                 {
                     "name": "string.unquoted.tag-string.django",
-                    "match": "[a-zA-Z_.]+"
+                    "match": "[a-zA-Z0-9_.]+"
                 }
             ]
         },
@@ -66,7 +71,7 @@
             "patterns": [
                 {
                     "name": "keyword.control.tag-name.django",
-                    "match": "\\b(autoescape|endautoescape|block|endblock|blocktrans|endblocktrans|trans|plural|debug|extends|filter|firstof|for|empty|endfor|if|else|endif|include|ifchanged|endifchanged|ifequal|endifequal|ifnotequal|endifnotequal|load|from|low|regroup|ssi|spaceless|endspaceless|templatetag|widthratio|with|endwith|csrf_token|cycle|url|lorem|thumbnail|endthumbnail|get_static_prefix)\\b"
+                    "match": "\\b(autoescape|endautoescape|block|endblock|blocktrans|endblocktrans|trans|plural|debug|extends|filter|firstof|for|empty|endfor|if|elif|else|endif|include|ifchanged|endifchanged|ifequal|endifequal|ifnotequal|endifnotequal|load|from|low|regroup|ssi|spaceless|endspaceless|templatetag|widthratio|with|endwith|csrf_token|cycle|url|lorem|thumbnail|endthumbnail|get_static_prefix)\\b"
                 },
                 {
                     "name": "keyword.operator.django",

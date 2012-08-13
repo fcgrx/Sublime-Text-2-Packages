@@ -1,8 +1,9 @@
 {
-	"auto_upgrade_last_run": 1340805008,
+	"auto_upgrade_last_run": 1344666014,
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"CoffeeScript",
 		"Djaneiro",
 		"Git",
 		"Package Control",
