@@ -6,6 +6,10 @@
 	"fallback_encoding": "UTF-8",
 	"font_face": "Menlo",
 	"font_size": 11.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_subsequent_lines": false,
 	"new_window_settings":
 	{
@@ -15,9 +19,12 @@
 		"status_bar_visible": true
 	},
 	"remember_open_files": false,
+	"rulers":
+	[
+		80
+	],
 	"save_on_focus_lost": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"wrap_width": 78,
-	"rulers": [80]
+	"wrap_width": 78
 }
